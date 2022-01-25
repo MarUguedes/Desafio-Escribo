@@ -15,5 +15,5 @@ void somaValores(num valor) {
       soma += i;
     }
   }
-  print("A soma de todos os valores inteiros divisiveclsis por 3 ou 5 e menor que $valor é: $soma");
+  print("A soma de todos os valores inteiros divisiveis por 3 ou 5 e menor que $valor é: $soma");
 }
