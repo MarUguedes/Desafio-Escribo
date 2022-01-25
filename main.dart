@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('\nBem vindo ao desafio Escribo\n');
+  print('\nBem-vindo (a) ao desafio Escribo\n');
   var menu = 1;
 
   while (menu != 2) {
