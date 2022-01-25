@@ -1,21 +1,28 @@
 import 'dart:io';
 
 void main() {
+
   print('\nBem-vindo (a) ao desafio Escribo\n');
   var menu = 1;
 
   while (menu != 2) {
+
     print("Digite um número que deseja somar");
     num valor = num.parse(stdin.readLineSync() ?? '');
 
+    //Chamada da função que executa o calculo
     somaValores(valor);
 
     print("\nDigite 1 se deseja continuar ou 2 para encerrar a aplicação");
     menu = int.parse(stdin.readLineSync() ?? '');
     print(menu != 2 && menu != 1 ? "\nOpção inválida" : "");
   }
+
   print("Fim da aplicação");
 }
+
+
+//Função para somar os valores dentro da condição dada
 
 void somaValores(num valor) {
   var soma = 0;
