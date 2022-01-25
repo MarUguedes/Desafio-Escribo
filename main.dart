@@ -1,10 +1,20 @@
 import 'dart:io';
 
 void main() {
-  print("Digite um valor");
-  num valor = num.parse(stdin.readLineSync() ?? "0");
+  print('\nBem vindo ao desafio Escribo\n');
+  var menu = 1;
 
-  somaValores(valor);
+  while (menu != 2) {
+    print("Digite um numero que deseja somar");
+    var valor = num.parse(stdin.readLineSync() ?? '');
+
+    somaValores(valor);
+
+    print("\nDigite 1 se deseja continuar ou 2 para encerrar a aplicação");
+    menu = int.parse(stdin.readLineSync() ?? '');
+    print(menu != 2 && menu != 1 ? "\nOpção invalida" : "");
+  }
+  print("Fim da aplicação");
 }
 
 void somaValores(num valor) {
@@ -15,5 +25,6 @@ void somaValores(num valor) {
       soma += i;
     }
   }
-  print("A soma de todos os valores inteiros divisiveis por 3 ou 5 e menor que $valor é: $soma");
+  print(
+      "\nSomatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores a $valor é: $soma");
 }
