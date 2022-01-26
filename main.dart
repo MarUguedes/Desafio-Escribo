@@ -26,7 +26,7 @@ void somaValores(num valor) {
 
   if (valor < 0) {
 
-    print("Digite um valor maior que 0");
+    print("Insira um valor maior que 0");
 
   } else {
     for (var i = 1; i < valor; i++) {
