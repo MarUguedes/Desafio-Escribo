@@ -6,10 +6,10 @@ void main() {
   num resultado = 0;
 
   if (valor <= 0) {
-    print("Digite um valor maior que 0");
+    print("\nDigite um valor maior que 0");
   } else {
     resultado = somaValores(valor);
-    print("Resultado : $resultado");
+    print("\nResultado : $resultado");
   }
 }
 
