@@ -15,9 +15,9 @@ void main() {
 
 num somaValores(num valor) {
   var soma = 0;
-  for (var i = 1; i < valor; i++) {
-    if (i % 3 == 0 || i % 5 == 0) {
-      soma += i;
+  for (var contador = 1; contador < valor; contador++) {
+    if (contador % 3 == 0 || contador % 5 == 0) {
+      soma += contador;
     }
   }
   return soma;
