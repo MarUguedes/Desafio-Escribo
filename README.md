@@ -59,6 +59,6 @@ dos números 3, 5, 6 e 9 que são menores que 10.
 
 
 
-8. Caso queira testar outro valor basta digitar: dart main.dart.
+8. Caso queira testar outro valor basta digitar: dart main.dart
 
 
