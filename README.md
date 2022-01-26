@@ -54,6 +54,9 @@ dos números 3, 5, 6 e 9 que são menores que 10.
 7. Pronto, a aplicação será iniciada e agora é só digitar o número que desaja testar.
 
 
+<div align="center"><img src="https://user-images.githubusercontent.com/88554358/151088020-aa8cd27a-cbd5-4d7b-b805-9c2a77fc7d44.jpeg" width="600px" />
+  </div>
+
 
 
 8. Caso queira testar outro valor basta digitar: dart main.dart.
